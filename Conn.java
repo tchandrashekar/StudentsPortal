@@ -14,7 +14,7 @@ public class Conn {
             //register
             //Class.forName(com.mysql.cj.jdbc.Driver);
             //connection
-            c=DriverManager.getConnection("jdbc:mysql:///studentsportal","root","chandrashekar7");
+            c=DriverManager.getConnection("jdbc:mysql:///studentsportal","root","*******");
             s =c.createStatement();
          
            
